@@ -1,0 +1,19 @@
+
+# R and project artifacts
+.Rhistory
+.Rproj.user/
+.RData
+.Ruserdata
+.Renviron
+renv/library/
+renv/staging/
+
+# Data & outputs
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+
+# OS junk
+.DS_Store
+Thumbs.db

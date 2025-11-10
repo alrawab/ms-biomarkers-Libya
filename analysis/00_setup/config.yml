@@ -1,0 +1,35 @@
+data_file: "data/Libya_MS.csv"
+
+columns:
+  patient_id: "patient_id"
+  center: "center"
+  age: "age"
+  age_onset: "age_of_onset_of_disease_years"   # <-- added (your header cleans to this)
+  sex: "gender"
+  bmi: "bmi_kg_m2"
+  phenotype: "ms_phenotype"
+  edss: "edss"
+  relapses_total: "relapses_total"
+  duration_years: "duration_of_illness_years"
+  vitd: "vitamin_d"
+  crp: "crp"
+  hba1c: "hb_a1c"
+  tc: "total_cholesterol"
+  ldl: "ldl"
+  hdl: "hdl"
+  tg: "tg"
+  chol_hdl_ratio: "chol_hdl_ratio"
+  ldl_hdl_ratio: "ldl_hdl_ratio"
+  aip: "aip"
+  smoking: "smoking_status"
+  physical_activity: "physical_activity"
+  ethnicity: "ethnicity"
+  residence: "residency_type"
+
+edss_categories:
+  mild_max: 2.5
+  moderate_max: 5.5
+
+equivalence:
+  edss_margin: 0.30
+  arr_margin: 0.25
