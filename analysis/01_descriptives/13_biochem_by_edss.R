@@ -240,4 +240,4 @@ doc <- flextable::body_add_flextable(doc, value = ft)
 
 print(doc, target = "outputs/tables/Table2_Biochemical_by_EDSS.docx")
 
-message("✅ Wrote: outputs/tables/Table2_Biochemical_by_EDSS.docx and outputs/tables/Table2_Biochemical_by_EDSS.csv")
+message("Wrote: outputs/tables/Table2_Biochemical_by_EDSS.docx and outputs/tables/Table2_Biochemical_by_EDSS.csv")
