@@ -155,4 +155,4 @@ readr::write_csv(
   "outputs/tables/Table2_Biochemical_by_EDSS_raw.csv"
 )
 
-message("✓ Wrote Table2_Biochemical_by_EDSS.docx and raw CSV")
+message(" Wrote Table2_Biochemical_by_EDSS.docx and raw CSV")
