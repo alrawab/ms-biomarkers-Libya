@@ -280,4 +280,4 @@ doc <- flextable::body_add_flextable(doc, value = ft)
 
 print(doc, target = "outputs/tables/Table2_Biochemical_Enhanced.docx")
 
-message("✅ Table2_Biochemical_Enhanced.docx and CSV created successfully.")
+message(" Table2_Biochemical_Enhanced.docx and CSV created successfully.")
