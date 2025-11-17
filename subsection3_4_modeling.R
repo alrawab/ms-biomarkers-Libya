@@ -256,7 +256,7 @@ diag_lines <- c(
 )
 writeLines(diag_lines, con = file.path(out_dir, "model_diagnostics.txt"))
 
-message("\n✅ Subsection 3.4 outputs saved to: ", out_dir,
+message("\n Subsection 3.4 outputs saved to: ", out_dir,
         "\n - Table5_Ordinal_Logistic_EDSS.(csv|docx)",
         "\n - Table6_PartialR2_EDSS.(csv|docx)",
         "\n - Figure3_MS_Disability_Predictors.(png|tiff)",
