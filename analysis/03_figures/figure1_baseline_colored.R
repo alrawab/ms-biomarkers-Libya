@@ -239,4 +239,4 @@ save_both(pB,        "outputs/figures/Figure1B_Duration_ARR_colored", w = 8, h =
 save_both(pC,        "outputs/figures/Figure1C_VitD_colored",        w = 8,  h = 4.5, dpi = 600)
 save_both(pD,        "outputs/figures/Figure1D_LipidRatios_colored", w = 8,  h = 4.5, dpi = 600)
 
-message("✅ Saved: composite + individual panels (PNG & TIFF, 600 DPI) in outputs/figures/")
+message("Saved: composite + individual panels (PNG & TIFF, 600 DPI) in outputs/figures/")
