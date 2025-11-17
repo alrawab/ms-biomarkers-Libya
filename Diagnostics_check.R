@@ -265,7 +265,7 @@ doc <- read_docx() %>%
 
 print(doc, target = file.path(out_dir, "Diag_S1_ModelDiagnostics.docx"))
 
-message("\n✅ Diagnostics written to: ", out_dir,
+message("\n Diagnostics written to: ", out_dir,
         "\n - Diag_S1_ModelDiagnostics.docx",
         "\n - Figure_S2_Calibration.png",
         "\n - Figure_S3_Residuals.png",
