@@ -98,4 +98,4 @@ plots <- lapply(num_vars, function(v){
 fig <- ggarrange(plotlist=plots[1:4], ncol=2, nrow=2, labels=c("A","B","C","D"))
 ggsave(file.path(out_dir,"Figure2A-D_GroupTests.png"), fig, dpi=600, width=10, height=8)
 
-message("\n✅ Subsection 3.2 outputs saved to: ", out_dir)
+message("\nSubsection 3.2 outputs saved to: ", out_dir)
