@@ -210,4 +210,4 @@ ggsave("outputs/figures/Figure1_MS_Baseline.png", composite,
 ggsave("outputs/figures/Figure1_MS_Baseline.tiff", composite,
        width = 10, height = 8, units = "in", dpi = 600, compression = "lzw")
 
-message("✅ Saved Figure1_MS_Baseline.{png,tiff} at 600 DPI in outputs/figures")
+message("Saved Figure1_MS_Baseline.{png,tiff} at 600 DPI in outputs/figures")
