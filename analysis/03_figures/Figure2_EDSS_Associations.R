@@ -130,4 +130,4 @@ ggsave("outputs/figures/Figure2B_CorrHeatmap.tiff", pB, dpi = 600, width = 5, he
 ggsave("outputs/figures/Figure2C_ForestPlot.tiff", pC, dpi = 600, width = 5, height = 4)
 ggsave("outputs/figures/Figure2D_VitD_Trends.tiff", pD, dpi = 600, width = 4, height = 4)
 
-message("✅ Figure 2 (combined and sub-panels) successfully saved in: ", base_dir, "/outputs/figures/")
+message("Figure 2 (combined and sub-panels) successfully saved in: ", base_dir, "/outputs/figures/")
