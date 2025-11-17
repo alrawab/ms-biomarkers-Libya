@@ -223,5 +223,5 @@ ft4 <- flextable(spearman_results) |>
   set_caption("Table 4. Spearman correlations between EDSS (numeric) and clinical/biochemical variables; optional partial correlations adjust for age and sex.")
 save_as_docx(`Table 4` = ft4, path = file.path(out_dir, "Table4_Spearman_EDSS.docx"))
 
-message("✅ Exported Table 3 and Table 4 (CSV + DOCX) to: ", out_dir)
+message("Exported Table 3 and Table 4 (CSV + DOCX) to: ", out_dir)
 if (!jt_available) message("ℹ Install trend test package: install.packages('clinfun')")
