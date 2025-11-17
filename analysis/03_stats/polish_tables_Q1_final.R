@@ -154,4 +154,4 @@ ft4 <- flextable(t4_disp) |>
 
 save_as_docx(`Table 4` = ft4, path = file.path(out_dir, "Table4_Spearman_EDSS_Q1.docx"))
 
-message("✅ Q1-styled DOCX exported to: ", out_dir)
+message("Q1-styled DOCX exported to: ", out_dir)
