@@ -169,6 +169,6 @@ p_corr <- ggplot(res_long, aes(x = Variable, y = rho, fill = Type)) +
 ggsave(file.path(out_dir, "Figure2E-F_Correlations.png"),
        p_corr, dpi = 600, width = 10, height = 7)
 
-message("\n✅ Subsection 3.3 outputs saved to: ", out_dir,
+message("\nSubsection 3.3 outputs saved to: ", out_dir,
         "\n - Table4_Spearman_EDSS_Q1.docx",
         "\n - Figure2E-F_Correlations.png")
